@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayne Industries - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <h1 class="nav-title">Dashboard</h1>
+        </div>
+        <nav>
+            <ul id="navMenu">
+                </ul>
+        </nav>
+        <div class="user-info">
+            Olá, <span id="userName"></span>! (<span id="userRole"></span>)
+            <button id="logoutBtn">Sair</button>
+        </div>
+    </header>
+
+    <main class="dashboard-content">
+        <h2 id="welcomeTitle"></h2>
+        
+        <section id="adminSection" class="hidden">
+            <h3>Visão Geral da Segurança</h3>
+            <div class="card-container">
+                <div class="card">
+                    <h4>Dispositivos Ativos</h4>
+                    <p id="activeDevices">...</p>
+                </div>
+                <div class="card">
+                    <h4>Inventário Total</h4>
+                    <p id="totalInventory">...</p>
+                </div>
+                <div class="card">
+                    <h4>Alertas de Segurança</h4>
+                    <p id="securityAlerts">0</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="employeeSection" class="hidden">
+            <h3>Central de Comunicação</h3>
+            <div class="notice">
+                <p><strong>Anúncio:</strong> O treinamento de segurança anual está agendado para a próxima terça-feira, na sala B-42.</p>
+            </div>
+            <div class="notice">
+                <p><strong>Notícia:</strong> As novas políticas de acesso para o laboratório de tecnologia já estão em vigor.</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

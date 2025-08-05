@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayne Industries - Inventário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <h1 class="nav-title">Inventário de Recursos</h1>
+        </div>
+        <nav>
+            <ul id="navMenu">
+                </ul>
+        </nav>
+        <div class="user-info">
+            Olá, <span id="userName"></span>! (<span id="userRole"></span>)
+            <button id="logoutBtn">Sair</button>
+        </div>
+    </header>
+
+    <main class="inventory-container">
+        <h2>Gerenciar Recursos</h2>
+        
+        <form id="resourceForm">
+            <input type="hidden" id="resourceId">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="resourceName">Nome do Recurso:</label>
+                    <input type="text" id="resourceName" required>
+                </div>
+                <div class="form-group">
+                    <label for="resourceType">Tipo:</label>
+                    <select id="resourceType" required>
+                        <option value="dispositivo">Dispositivo</option>
+                        <option value="veiculo">Veículo</option>
+                        <option value="equipamento">Equipamento</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resourceStatus">Status:</label>
+                    <select id="resourceStatus" required>
+                        <option value="ativo">Ativo</option>
+                        <option value="em_estoque">Em Estoque</option>
+                        <option value="em_manutencao">Em Manutenção</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" id="submitBtn">Adicionar Recurso</button>
+        </form>
+
+        <h3>Lista de Recursos</h3>
+        <table id="resourceTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="resourceTableBody">
+                </tbody>
+        </table>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
