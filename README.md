@@ -1,7 +1,5 @@
 # Projeto Wayne Industries
 
-![Logo Wayne Industries](https://i.imgur.com/uR7j2Jc.png)
-
 Um protótipo de sistema web de gerenciamento para as Indústrias Wayne, focado em controle de acesso, inventário de recursos e segurança. A aplicação simula um ambiente "full-stack" utilizando JavaScript e o `localStorage` do navegador para persistência de dados.
 
 ---
