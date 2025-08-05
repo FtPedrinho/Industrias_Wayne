@@ -46,11 +46,11 @@ O sistema já vem pré-configurado com três usuários. Utilize as credenciais a
 ### 📁 Estrutura de Arquivos
 
 /wayne-industries-app/
-├── index.html 
-├── dashboard.html     
-├── inventory.html     
-├── README.md         
-├── style.css     
+├── index.html
+├── dashboard.html
+├── inventory.html
+├── README.md
+├── style.css
 ├── auth.js 
 └── main.js    
 
