@@ -46,15 +46,13 @@ O sistema já vem pré-configurado com três usuários. Utilize as credenciais a
 ### 📁 Estrutura de Arquivos
 
 /wayne-industries-app/
-├── index.html         (Página de Login)
-├── dashboard.html     (Página inicial após o login)
-├── inventory.html     (Gerenciamento de recursos)
-├── README.md          (Documentação do projeto)
-├── css/
-│   └── style.css      (Estilos globais unificados)
-└── js/
-├── auth.js        (Lógica de autenticação)
-└── main.js        (Lógica de navegação e CRUD
+├── index.html 
+├── dashboard.html     
+├── inventory.html     
+├── README.md         
+├── style.css     
+├── auth.js 
+└── main.js    
 
 ---
 
